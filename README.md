@@ -1,5 +1,7 @@
 # Sidekiq-CloudWatch
 
+[![Build Status](https://travis-ci.org/codetree/sidekiq-cloudwatch.svg?branch=master)](https://travis-ci.org/codetree/sidekiq-cloudwatch)
+
 Upload metrics to Cloudwatch using threads running inside your Sidekiq processes.  Enables general monitoring of Sidekiq through Cloudwatch and autoscaling of your containers based on queue activity.
 
 Can be utilized with Sidekiq Enterprise as it natively recognizes leader election, otherwise it assigns a leader role.
